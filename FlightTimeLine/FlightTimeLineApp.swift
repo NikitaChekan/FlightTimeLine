@@ -2,7 +2,7 @@
 //  FlightTimeLineApp.swift
 //  FlightTimeLine
 //
-//  Created by jopootrivatel on 18.12.2022.
+//  Created by Nikita Chekan on 18.12.2022.
 //
 
 import SwiftUI

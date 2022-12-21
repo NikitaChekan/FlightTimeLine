@@ -2,20 +2,25 @@
 //  ContentView.swift
 //  FlightTimeLine
 //
-//  Created by jopootrivatel on 18.12.2022.
+//  Created by Nikita Chekan on 18.12.2022.
 //
 
 import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+        TabView {
+            HomeScreenView()
+                .tabItem {
+                    Image(systemName: "airplane")
+                    Text("Home")
+                }
+            UserProfileView()
+                .tabItem {
+                    Image(systemName: "person.circle")
+                    Text("Profile")
+                }
         }
-        .padding()
     }
 }
 
